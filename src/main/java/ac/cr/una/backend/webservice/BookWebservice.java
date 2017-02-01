@@ -82,4 +82,16 @@ public class BookWebservice
 		return bookList;
 	}
 
+	@GET
+	@Path("/")
+	@Produces(MediaType.APPLICATION_JSON)
+	public float getTotalPrice()
+	{
+		float result;
+		bookService = new BookServiceImpl(bookDAO);
+		result = bookService.totalPriceAll();
+
+		return result;
+	}
+
 }

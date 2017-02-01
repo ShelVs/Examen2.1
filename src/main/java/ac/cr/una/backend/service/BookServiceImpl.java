@@ -45,11 +45,18 @@ public class BookServiceImpl implements BookService
 		return bookDAO.findAll();
 	}
 
-	/*@Override
+	@Override
 	public float totalPriceAll()
 	{
-		return bookTypeDAO.totalPriceAll();
-	}*/
+		float total = 0;
+		List<Book> books = findAll();
+		for (Book book : books)
+		{
+			total += book.getPrice();
+		}
+		return total;
+	}
+
 	public BookDAO getBookDAO()
 	{
 		return bookDAO;

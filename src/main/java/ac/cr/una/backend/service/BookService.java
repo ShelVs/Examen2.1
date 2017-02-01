@@ -21,5 +21,5 @@ public interface BookService
 
 	public List<Book> findAll();
 
-	//public float totalPriceAll();
+	public float totalPriceAll();
 }
