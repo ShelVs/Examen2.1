@@ -1,0 +1,13 @@
+ac\cr\una\backend\dao\AuthorDAOImpl.class
+ac\cr\una\backend\dao\AuthorContactDAOImpl.class
+ac\cr\una\backend\model\AuthorContact.class
+ac\cr\una\backend\dao\BookTypeDAO.class
+ac\cr\una\backend\model\Author.class
+ac\cr\una\backend\dao\BookTypeDAOImpl.class
+ac\cr\una\backend\model\Book.class
+ac\cr\una\backend\dao\HibernateUtil.class
+ac\cr\una\backend\dao\BookDAOImpl.class
+ac\cr\una\backend\dao\BookDAO.class
+ac\cr\una\backend\dao\AuthorDAO.class
+ac\cr\una\backend\model\BookType.class
+ac\cr\una\backend\dao\AuthorContactDAO.class
